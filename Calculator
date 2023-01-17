@@ -1,0 +1,35 @@
+print("Das ist ein Taschenrechner")
+Rechenart = input(" Bitte schreiben Sie folgende Zeichen zur Bestimmung der gewünschten Rechenart: 1 für 'Addition',"
+                  "2 für 'Subtraktion', 3 für 'Multiplikation' und 4 für 'Division': ")
+print(Rechenart)
+
+Addition =
+ erste_zahl=input("Bitte geben Sie Ihre erste Zahl ein: ")
+ zweite_zahl = input("Bitte geben Sie Ihre zweite Zahl ein: ")
+ print(float(erste_zahl) + float(zweite_zahl))
+Subtraktion =
+ erste_zahl = input("Bitte geben Sie Ihre erste Zahl ein: ")
+ zweite_zahl = input("Bitte geben Sie Ihre zweite Zahl ein: ")
+ print(float(erste_zahl) - float(zweite_zahl))
+Multiplikation =
+ erste_zahl = input("Bitte geben Sie Ihre erste Zahl ein: ")
+ zweite_zahl = input("Bitte geben Sie Ihre zweite Zahl ein: ")
+ print(float(erste_zahl) * float(zweite_zahl))
+Division = 
+ erste_zahl = input("Bitte geben Sie Ihre erste Zahl ein: ")
+ zweite_zahl = input("Bitte geben Sie Ihre zweite Zahl ein: ")
+ print(float(erste_zahl) / float(zweite_zahl))
+
+       if Rechenart == "1"
+          print(Addition)
+
+       if Rechenart == "2"
+         print(Subtraktion)
+
+       if Rechenart == "3"
+         print(Multiplikation)
+
+       if Rechenart == "4"
+        print(Division)
+
+
