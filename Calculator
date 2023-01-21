@@ -1,35 +1,41 @@
-print("Das ist ein Taschenrechner")
-Rechenart = input(" Bitte schreiben Sie folgende Zeichen zur Bestimmung der gewünschten Rechenart: 1 für 'Addition',"
-                  "2 für 'Subtraktion', 3 für 'Multiplikation' und 4 für 'Division': ")
-print(Rechenart)
-
-Addition =
- erste_zahl=input("Bitte geben Sie Ihre erste Zahl ein: ")
- zweite_zahl = input("Bitte geben Sie Ihre zweite Zahl ein: ")
- print(float(erste_zahl) + float(zweite_zahl))
-Subtraktion =
- erste_zahl = input("Bitte geben Sie Ihre erste Zahl ein: ")
- zweite_zahl = input("Bitte geben Sie Ihre zweite Zahl ein: ")
- print(float(erste_zahl) - float(zweite_zahl))
-Multiplikation =
- erste_zahl = input("Bitte geben Sie Ihre erste Zahl ein: ")
- zweite_zahl = input("Bitte geben Sie Ihre zweite Zahl ein: ")
- print(float(erste_zahl) * float(zweite_zahl))
-Division = 
- erste_zahl = input("Bitte geben Sie Ihre erste Zahl ein: ")
- zweite_zahl = input("Bitte geben Sie Ihre zweite Zahl ein: ")
- print(float(erste_zahl) / float(zweite_zahl))
-
-       if Rechenart == "1"
-          print(Addition)
-
-       if Rechenart == "2"
-         print(Subtraktion)
-
-       if Rechenart == "3"
-         print(Multiplikation)
-
-       if Rechenart == "4"
-        print(Division)
+print("This is a Calculator")
 
 
+Calculation_Method = \
+    input("Please enter the following characters to determine your calculation method: 1 for 'Addition',"
+          "2 for 'subtraction', 3 for 'Multiplication' und 4 for 'Division': ")
+
+
+first_number = \
+    float(input("Please enter your first number: "))
+second_number = \
+    float(input("Please enter your second number: "))
+
+
+Addition =\
+    print(first_number + second_number)
+Subtraction =\
+    print(first_number - second_number)
+Multiplication =\
+    print(first_number * second_number)
+Division =\
+    print(first_number / second_number)
+
+
+if Calculation_Method == "1":
+    print(Addition)
+
+elif Calculation_Method == "2":
+    print(Subtraction)
+
+elif Calculation_Method == "3":
+    print(Multiplication)
+
+elif Calculation_Method == "4":
+    print(Division)
+
+else:
+    print("Please follow given instructions!")
+
+# while Calculation_Method != range(0,5):
+#    print("Please follow given instructions")
